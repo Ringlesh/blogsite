@@ -1,0 +1,198 @@
+.section_title
+{
+  text-align: center;
+  font-size:3rem;
+
+}
+
+
+.layout_1
+{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-gap:1rem;
+
+}
+
+
+
+/* ========================================== */
+.layout_1_singlepage
+{
+  width: 100%;
+  height: 100%;
+  border-right:3px solid rgba(128, 128, 128, 0.407);
+  border-left:3px solidrgba(128, 128, 128, 0.407);
+  border-radius: 1rem;
+  padding-left:1rem;
+  padding-right:1rem ;
+}
+.layout_1_singlepage_link
+{
+  display: block;
+}
+.layout_1_singlepage_image
+{
+margin:1rem;
+border-radius:1rem;
+}
+
+.layout_1_singlepage_content
+{
+margin-top:0.5rem;
+margin-bottom:0.5rem;
+}
+
+.layout_1_s_content_date
+{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
+
+.layout_1_s_content_heading
+{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
+
+.layout_1_s_content
+{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
+/* ========================================== */
+.layout_1_multipage
+
+  {
+    display: grid;
+    grid-template-columns:1fr;
+    gap:1rem;
+  }
+.layout_1_multipage_post_link
+{
+   display: grid;
+    width: 100%;
+    border-bottom:2px solid rgba(128, 128, 128, 0.407);
+    padding:0.5rem;
+    border-radius: 0.5rem;
+}
+.layout_1_multipage_image
+{
+  display: grid;
+  max-width:100%;
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+
+  border-radius:1rem;
+}
+.layout_1_multipage_content
+{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
+.layout_1_m_content_date
+{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
+.layout_1_m_content_heading
+{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
+
+
+/* ========================================== */
+.layout_1_trending
+  {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;   
+    justify-content: space-evenly;
+    align-items:center;
+    gap:1rem;
+
+ 
+  }
+  .layout_1_content_container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1rem;
+    width: 100%;
+    border-top:2px solid rgba(128, 128, 128, 0.407);
+    border-bottom:2px solid rgba(128, 128, 128, 0.407);
+    padding:0.5rem;
+    border-radius: 1rem;
+   
+  }
+
+
+/* ========================================== */
+
+
+/* ============================================== */
+
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+
+/* xs */
+@media(min-width:475px )
+{
+
+
+}
+/* sm */
+@media(min-width:640px )
+{
+
+}
+/* md */
+@media(min-width:768px )
+{
+
+}
+/* lg */
+@media(min-width:1024px )
+{
+
+  
+  /* ========================================== */
+
+
+  .layout_1_multipage
+  
+    {
+ 
+      grid-template-columns:1fr 1fr;
+
+    }
+
+  
+  
+  /* ========================================== */
+
+  .layout_1_head
+  {
+    font-size: 1rem;
+  }
+
+}
+
+/* xl */
+@media(min-width:1280px )
+{
+
+}
+
+/* 2xl */
+@media(min-width:1536px )
+{
+
+}
+
+
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
